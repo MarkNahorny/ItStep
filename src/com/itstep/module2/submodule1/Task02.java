@@ -1,3 +1,5 @@
+package com.itstep.module2.submodule1;
+
 public class Task02 {
     public static void main(String[] args) {
         int n =  199 ;
