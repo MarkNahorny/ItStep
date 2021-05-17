@@ -14,6 +14,6 @@ public class Task01 {
         double result3 = Math.sqrt(x);
         System.out.println("Dividing result x by y " + result);
         System.out.println("Remainder of the division x by y " + result2);
-        System.out.println("Square root x " + result3);
+        System.out.println("Square root x " + result3);//refactor
     }
 }
