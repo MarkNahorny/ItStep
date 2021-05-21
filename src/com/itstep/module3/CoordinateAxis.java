@@ -12,7 +12,9 @@ public class CoordinateAxis {
             System.out.println("Third axis: ");
         else if (x > 0 && x <= 10 && y < 0 && y >= -10)
             System.out.println("Forth axis: ");
+        else if (x == 0 && y == 0)
+        System.out.println("The point is at the intersection of the coordinate axes ");
         else
-            System.out.println("Not in coordinate axis: ");
+        System.out.println("Point out of range: ");
     }
 }
